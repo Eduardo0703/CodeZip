@@ -9,9 +9,7 @@ pipeline {
         }
         stage('CreateVirtualEnv') {
             steps {
-				sh '''
-					bash -c "gradle biuld"
-				'''
+				sh "gradle build"
 
             }
         }
