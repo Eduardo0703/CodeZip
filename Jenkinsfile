@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Compile') {
             steps {
-				bat "gradle build"
+				bat "gradle build" 
 
             }
         }
