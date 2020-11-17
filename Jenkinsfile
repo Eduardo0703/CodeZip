@@ -7,9 +7,9 @@ pipeline {
 		git poll: true, url: 'https://github.com/Eduardo0703/promad.git'
                }
         }
-        stage('CreateVirtualEnv') {
+        stage('Compile') {
             steps {
-				sh "gradle build"
+				bat "gradle build"
 
             }
         }
