@@ -10,7 +10,7 @@ pipeline {
         stage('CreateVirtualEnv') {
             steps {
 				sh '''
-					bash -c "ls -l"
+					bash -c "gradle biuld"
 				'''
 
             }
