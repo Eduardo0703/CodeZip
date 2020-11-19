@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Compile') {
             steps {
-				bat "gradle build" 
+				bat "echo Paso por aqui" 
 
             }
         }
